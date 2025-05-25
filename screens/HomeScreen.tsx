@@ -82,7 +82,7 @@ const HomeScreen = () => {
   return (
     <View style={styles.container}>
       <View style={styles.header}>
-        <Text style={styles.welcome}>Welcomt to Tasty App</Text>
+        <Text style={styles.welcome}>Welcome to Cook With CheFu</Text>
         <Text style={styles.subtitle}>Here's what we recommend for you!</Text>
       </View>
 
