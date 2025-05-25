@@ -82,8 +82,8 @@ const HomeScreen = () => {
   return (
     <View style={styles.container}>
       <View style={styles.header}>
-        <Text style={styles.welcome}>Welcome to Cook With CheFu</Text>
-        <Text style={styles.subtitle}>Here's what we recommend for you!</Text>
+        <Text style={styles.welcome}>Welcome to Cook with CheFu</Text>
+        <Text style={styles.subtitle}>Delicious dishes waiting for you to try!</Text>
       </View>
 
       <FlatList
