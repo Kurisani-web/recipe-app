@@ -56,7 +56,7 @@ const AddPostScreen = () => {
     } as any);
 
     try {
-      await axios.post('http://localhost:3000/api/posts', formData, {
+      await axios.post('https://recipe-app-anzh.onrender.com/api/posts', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
           Authorization: `Bearer ${token}`,
