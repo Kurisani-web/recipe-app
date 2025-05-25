@@ -35,7 +35,7 @@ const CommentsScreen = () => {
   const fetchPostAndComments = async () => {
     try {
       const postResponse = await axios.get(
-        `http://localhost:3000/api/posts/${postId}`,
+        `/api/posts/${postId}`,
       );
       console.log('Response', postResponse);
       setPost(postResponse.data);
