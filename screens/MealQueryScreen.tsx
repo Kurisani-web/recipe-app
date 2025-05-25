@@ -19,7 +19,7 @@ const useMealQuery = () => {
     {text: string; isUser?: boolean; isLoading?: boolean}[]
   >([
     {
-      text: "Hi! I'm your AI-powered copilot in the kitchen! I can help you discover recipes, improve your skills, and solve cooking conundrums. Ask me about techniques, ingredients (e.g., 'chicken rice'), or recipe ideas (e.g., 'How to cook pasta al dente')!",
+      text: "Hi! I'm your AI-powered Chef in the kitchen! I can help you discover recipes, improve your skills, and solve cooking conundrums. Ask me about techniques, ingredients (e.g., 'chicken rice'), or recipe ideas (e.g., 'How to cook pasta al dente')!",
     },
   ]);
 
