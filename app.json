@@ -1,4 +1,9 @@
 {
   "name": "recipeappyt",
-  "displayName": "recipeappyt"
+  "displayName": "recipeappyt",
+  "extra": {
+    "eas": {
+      "projectId": "1a61aab3-42b7-4193-bdec-7ccdb02e6733"
+    }
+  }
 }
