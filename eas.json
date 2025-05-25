@@ -1,11 +1,8 @@
 {
-  "cli": {
-    "version": ">= 3.13.0"
-  },
   "build": {
     "preview": {
-      "platforms": ["android"],
       "android": {
+        "workflow": "generic",
         "buildType": "apk"
       }
     }
