@@ -35,14 +35,14 @@ const CommentsScreen = () => {
   const fetchPostAndComments = async () => {
     try {
       const postResponse = await axios.get(
-        `/api/posts/${postId}`,
+        `https://recipe-app-anzh.onrender.com/api/posts/${postId}`,
       );
       console.log('Response', postResponse);
       setPost(postResponse.data);
 
       const commentsResponse = await axios.get(
-        `http://localhost:3000/api/posts/${postId}/comments`,
-      );
+        `https://recipe-app-anzh.onrender.com/api/posts/${postId}/comments`,
+      )
       setComments(commentsResponse.data);
     } catch (error) {
       console.log('Error', error);
