@@ -24,7 +24,7 @@ const LoginScreen = () => {
     const url = isLogin ? '/api/login' : '/api/register';
     const body = isLogin ? {email, password} : {name, email, password};
 
-    const response = await axios.post(`http://localhost:3000${url}`, body, {
+    const response = await axios.post(`https://recipe-app-anzh.onrender.com${url}`, body, {
       headers: {
         'Content-Type': 'application/json',
       },
@@ -78,7 +78,7 @@ const LoginScreen = () => {
         <TouchableOpacity onPress={() => setIsLogin(!isLogin)}>
           <Text style={styles.toggleText}>
             {isLogin
-              ? 'Need an account? Sign Up'
+              ? 'Do not have an account? Sign Up'
               : 'Already have an account? Log in'}
           </Text>
         </TouchableOpacity>
