@@ -1,4 +1,4 @@
-name: Android Release Build
+name: Android Ready Release Build
 
 on:
   workflow_dispatch:
