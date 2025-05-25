@@ -66,7 +66,7 @@ const CommentsScreen = () => {
     if (newComment.trim()) {
       try {
         await axios.post(
-          `http://localhost:3000/api/posts/${postId}/comments`,
+          `https://recipe-app-anzh.onrender.com/api/posts/${postId}/comments`,
           {
             text: newComment,
           },
@@ -89,7 +89,7 @@ const CommentsScreen = () => {
         {/* Post Section */}
         <View style={styles.postContainer}>
           <Image
-            source={{uri: `http://localhost:3000${post.imageUrl}`}}
+            source={{uri: `https://recipe-app-anzh.onrender.com${post.imageUrl}`}}
             style={styles.postImage}
           />
           <View style={styles.postInfo}>
