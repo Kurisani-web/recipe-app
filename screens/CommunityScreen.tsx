@@ -62,7 +62,7 @@ const CommunityScreen = () => {
     }
     try {
       const response = await axios.post(
-        `http://localhost:3000/api/posts/${postId}/like`,
+        `https://recipe-app-anzh.onrender.com/api/posts/${postId}/like`,
         {},
         {
           headers: {
@@ -79,7 +79,7 @@ const CommunityScreen = () => {
   const renderPost = ({item}: {item: any}) => (
     <View style={styles.postContainer}>
       <Image
-        source={{uri: `http://localhost:3000${item.imageUrl}`}}
+        source={{uri: `https://recipe-app-anzh.onrender.com${item.imageUrl}`}}
         style={styles.postImage}
       />
       <View style={styles.postInfo}>
